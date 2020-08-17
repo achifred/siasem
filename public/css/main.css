@@ -1,0 +1,363 @@
+.sidebar-bg {
+  background-color: #243447;
+}
+
+.sidebar-bg .ul-items {
+  color: #62e750;
+}
+
+.sidebar-bg .ul-items:hover {
+  background-color: #40925269;
+  color: white;
+}
+
+.btns {
+  background-color: #243447;
+  color: white;
+}
+
+.btnl {
+  border-style: solid;
+  border-color: #243447;
+  color: #243447;
+}
+
+.btnn {
+  border-style: solid;
+  border-color: #243447;
+  color: #243447;
+}
+
+.icon-container {
+  margin-top: 6rem;
+}
+
+.icons {
+  color: #243447;
+}
+
+.story-container {
+  height: 300px;
+  margin-top: 2rem;
+  box-shadow: 0 5px 3px -3px #777;
+}
+
+.team-container {
+  text-align: center;
+  box-shadow: 0 5px 3px -3px #777;
+}
+
+.team-container img {
+  border-top-left-radius: 30%;
+}
+
+.team-container:hover {
+  z-index: -1;
+}
+
+#whyus-container {
+  margin-top: 2rem;
+  min-height: 70vh;
+  background-color: #243447;
+  overflow: hidden;
+}
+
+.whyus-text {
+  color: white;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.whyus {
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+}
+
+.whyus i {
+  margin-top: 3rem;
+}
+
+.whyus:hover {
+  background-color: #38506d;
+}
+
+.whyus:hover i {
+  color: #243447;
+}
+
+.story-container:hover {
+  z-index: -1;
+  background: #243447;
+  color: white;
+  box-shadow: 0 35px 20px #777;
+}
+
+.story-container:hover .btnn {
+  border-style: solid;
+  background-color: white;
+  color: #243447;
+}
+
+.intro-headline {
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.intro {
+  min-height: 100vh;
+}
+
+.intro-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -3rem;
+}
+
+.podcast-img {
+  height: 12rem;
+}
+
+.intro-container {
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.intro-desc {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.brand-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-bg {
+  background-color: white;
+  color: #243447;
+}
+
+.footer-bg a,
+.footer-bg i,
+.footer-bg p {
+  color: #243447;
+}
+
+.user-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.sidebar-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+/*#firstarm {
+    animation: arm 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#secondarm {
+    animation: arm1 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}*/
+
+#head {
+  -webkit-animation: head 1s infinite linear;
+          animation: head 1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#Vector {
+  -webkit-animation: vector 2s infinite linear;
+          animation: vector 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+  color: red;
+}
+
+#Vector_14,
+#Vector_13,
+#Vector_12 {
+  -webkit-animation: playcircle 1s infinite linear;
+          animation: playcircle 1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#playbutton {
+  -webkit-animation: play 1s infinite linear;
+          animation: play 1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+/*@keyframes arm1 {
+    from {
+        transform: rotatez(0deg);
+    }
+    to {
+        transform: rotatex(45deg);
+    }
+}*/
+
+@-webkit-keyframes head {
+  from {
+    transform: rotatez(0deg);
+  }
+
+  to {
+    transform: rotatez(5deg);
+  }
+}
+
+@keyframes head {
+  from {
+    transform: rotatez(0deg);
+  }
+
+  to {
+    transform: rotatez(5deg);
+  }
+}
+
+@-webkit-keyframes playcircle {
+  from {
+    transform: scale(0.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes playcircle {
+  from {
+    transform: scale(0.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes vector {
+  from {
+    transform: scale(0.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes vector {
+  from {
+    transform: scale(0.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes play {
+  from {
+    transform: rotatex(0deg);
+  }
+
+  to {
+    transform: rotatex(15deg);
+  }
+}
+
+@keyframes play {
+  from {
+    transform: rotatex(0deg);
+  }
+
+  to {
+    transform: rotatex(15deg);
+  }
+}
+
+/*@keyframes arm {
+    from {
+        transform: rotatez(0deg);
+    }
+    to {
+        transform: rotatex(45deg);
+    }
+}*/
+
+@media (max-width: 768px) {
+  .intro {
+    min-height: 50vh;
+  }
+
+  .intro-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro-img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .whyus-container {
+    margin-top: 2rem;
+    height: 100%;
+    background-color: #243447;
+  }
+
+  .whyus-text {
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .whyus {
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 1.5rem;
+  }
+
+  .whyus i {
+    margin-top: 1.5rem;
+  }
+
+  .intro-bg {
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(/images/headphone.jpg?25e72b0ab4eddf2f93fd0a96d602597f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .intro-container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+

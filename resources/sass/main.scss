@@ -1,0 +1,316 @@
+$primaryColor: #243447;
+$secondaryColor: white;
+.sidebar-bg {
+    background-color: $primaryColor;
+    .ul-items {
+        color: #62e750;
+    }
+    .ul-items:hover {
+        background-color: #40925269;
+        color: white;
+    }
+}
+.btns {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+}
+.btnl {
+    border-style: solid;
+    border-color: $primaryColor;
+    color: $primaryColor;
+}
+.btnn {
+    border-style: solid;
+    border-color: $primaryColor;
+    color: $primaryColor;
+}
+.icon-container {
+    margin-top: 6rem;
+}
+.icons {
+    color: $primaryColor;
+}
+.story-container {
+    height: 300px;
+    margin-top: 2rem;
+    -webkit-box-shadow: 0 5px 3px -3px #777;
+    -moz-box-shadow: 0 5px 3px -3px #777;
+    box-shadow: 0 5px 3px -3px #777;
+}
+.team-container {
+    text-align: center;
+    img {
+        border-top-left-radius: 30%;
+    }
+    -webkit-box-shadow: 0 5px 3px -3px #777;
+    -moz-box-shadow: 0 5px 3px -3px #777;
+    box-shadow: 0 5px 3px -3px #777;
+}
+
+.team-container:hover {
+    z-index: -1;
+
+    // background: $primaryColor;
+    // color: $secondaryColor;
+    // -webkit-box-shadow: 0 35px 20px #777;
+    // -moz-box-shadow: 0 35px 20px #777;
+    // box-shadow: 0 35px 20px #777;
+}
+#whyus-container {
+    margin-top: 2rem;
+    min-height: 70vh;
+    background-color: $primaryColor;
+    overflow: hidden;
+}
+.whyus-text {
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5rem;
+    text-align: center;
+}
+.whyus {
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    color: $secondaryColor;
+    margin-top: 3rem;
+}
+.whyus i {
+    margin-top: 3rem;
+}
+
+.whyus:hover {
+    background-color: #38506d;
+    i {
+        color: $primaryColor;
+    }
+}
+.story-container:hover {
+    z-index: -1;
+
+    background: $primaryColor;
+    color: $secondaryColor;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    .btnn {
+        border-style: solid;
+
+        background-color: $secondaryColor;
+        color: $primaryColor;
+    }
+}
+.intro-headline {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.intro {
+    min-height: 100vh;
+}
+
+.intro-img-container {
+    display: flex;
+    //height: 100%;
+    // width: 100%;
+    justify-content: center;
+    margin-top: -3rem;
+}
+// .intro-img {
+//     //  height: 100%;
+//     // width: 100%;
+//     //margin-top: 2rem;
+// }
+.podcast-img {
+    height: 12rem;
+}
+
+.intro-container {
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.intro-desc {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.brand-img {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.footer-bg {
+    background-color: $secondaryColor;
+    color: $primaryColor;
+}
+
+.footer-bg {
+    a,
+    i,
+    p {
+        color: $primaryColor;
+    }
+}
+
+.user-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.sidebar-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/*#firstarm {
+    animation: arm 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#secondarm {
+    animation: arm1 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}*/
+#head {
+    animation: head 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Vector {
+    animation: vector 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+    color: red;
+}
+#Vector_14,
+#Vector_13,
+#Vector_12 {
+    animation: playcircle 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#playbutton {
+    animation: play 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+/*@keyframes arm1 {
+    from {
+        transform: rotatez(0deg);
+    }
+    to {
+        transform: rotatex(45deg);
+    }
+}*/
+@keyframes head {
+    from {
+        transform: rotatez(0deg);
+    }
+    to {
+        transform: rotatez(5deg);
+    }
+}
+@keyframes playcircle {
+    from {
+        transform: scale(0.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes vector {
+    from {
+        transform: scale(0.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes play {
+    from {
+        transform: rotatex(0deg);
+    }
+    to {
+        transform: rotatex(15deg);
+    }
+}
+/*@keyframes arm {
+    from {
+        transform: rotatez(0deg);
+    }
+    to {
+        transform: rotatex(45deg);
+    }
+}*/
+
+@media (max-width: 768px) {
+    .intro {
+        min-height: 50vh;
+    }
+
+    .intro-img-container {
+        display: flex;
+        justify-content: center;
+        //margin-top: -5rem;
+    }
+    .intro-img {
+        height: 5rem;
+        width: 5rem;
+        //margin-top: 3rem;
+    }
+    .whyus-container {
+        margin-top: 2rem;
+        height: 100%;
+        background-color: $primaryColor;
+    }
+
+    .whyus-text {
+        color: white;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .whyus {
+        height: 200px;
+        justify-content: center;
+        text-align: center;
+        color: $secondaryColor;
+        margin-top: 1.5rem;
+    }
+    .whyus i {
+        margin-top: 1.5rem;
+    }
+
+    .intro-bg {
+        min-height: 100vh;
+        background: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url("../../public/img/headphone.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .intro-container {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        //color: white;
+        margin-top: 3rem;
+    }
+}
