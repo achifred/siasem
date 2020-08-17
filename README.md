@@ -1,16 +1,8 @@
-PODCAST
-description
-audio file less than 5mins
-date created
-author->userid
-ispublished
-category->categoryid
+#Personal podcast platform
 
-Users
-email
-username
-password
-profile picture
+Follow these steps to get this project running
 
-CATEGORY
-name
+1. cd to root directory of this project
+2. run composer install to instal all dependencies
+3. run npm install and npm run dev to intall all node packages and compiled sass file
+4. run php artisan serve to start local server
